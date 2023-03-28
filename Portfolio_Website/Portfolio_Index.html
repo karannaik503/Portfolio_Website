@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan Naik</title>
+    <link rel="stylesheet" href="Portfolio_style.css">
+    <script src="https://kit.fontawesome.com/b50b6acfa6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images\Logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>          
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack Web Developer</p>
+                <h1>Hi, I'm <span>Karan Naik</span><br>, student at IIIT Dharwad</h1>
+            </div>
+        </div>    
+    </div>
+
+    <!--About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="user-pic" src="images/user_pic.png.jpg">
+                </div>
+                <div  class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Iam Karan Naik, a Computer Science Engineering Student at Indian Institute of Information Technology, Dharwad studying BTech.
+                        My hometown is situated in Bagalkot District, Karnataka. My hobbies are Sports, art, literature books, astronomy & astrophysics,
+                        coding, music and others. The skills I possess as a Computer Science Student are Coding, DSA, Competitive Programming, 
+                        Full-Stack Web developer, Postman API. Some of my achievements include, qualified IIT JEE Mains and JEE Advance Exam, 
+                        qualified NDA entrance exam, NCC cadet, etc. 
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>DSA</span><br>Data Structures and Algorithms</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>CP</span><br>Competitive Programming</li>
+                                <li><span>Postman API</span><br>Build and testing API requests in Postman</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2010-2016</span><br>Sri Ranganath International School, Bagalkot Karnataka</li>
+                                <li><span>2016-2019</span><br>Narayana CO School, Shankarpally Hyderabad</li>
+                                <li><span>2019-2021</span><br>Narayana Junior College, Madhapur, HiTech City Hyderabad</li>
+                                <li><span>2021-2025</span><br>Indian Institute of Information Technology Dharwad</li>                            
+                            </ul>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Works on the appearance, layout, and, in some cases, content of a website. 
+                    Appearance, for instance, relates to the colors, font, and images used. 
+                    Layout refers to how information is structured and categorized.
+                    Skilled in responsive and adaptive design.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Role include user interface design is its complement; 
+                    the look and feel, the presentation and interactivity of a product.
+                    Conglomeration of tasks focused on the optimization of a product for 
+                    effective and enjoyable use</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img style="width: 50px;" src="images\Postman - Postman API Fundamentals Student Expert - 2022-11-11.png">
+                    <h2>Postman Student Expert</h2>
+                    <p>Postman API Fundamentals Student Expert. Proficient in the essential skills involved in building and testing API requests in Postman.
+                    Postman is a collaboration platform for API development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/Work-1.png">
+                    <div class="layer">
+                        <h3>LeetCode</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Work-2.png">
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Work-3.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!--Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>karannaik503@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7899999884</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/karan.naik.5686322" target="_main"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/karan_naik_503/" target="_main"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/karan-naik-08680623a/" target="_main"><i class="fa-brands fa-linkedin"></i></a>
+                        <br>
+                        <a href="#" download class="btn btn1">DownLoad CV</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</div>
+                    </form>
+                    <span id="msg">Submitted!</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw-iPhsnYfJcGBPQ6wMVZ2P2VnH2TvgAoL3wGJDCF23guFPJJR7OfpVzWsYHTW6DwPx/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
